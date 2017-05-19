@@ -1,4 +1,4 @@
     function foo() {
         var obj;
-        var y = obj; // NULL_POINTER alarm
+        var y; // NULL_POINTER alarm
     }
