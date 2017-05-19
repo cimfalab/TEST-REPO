@@ -17,10 +17,11 @@
 'use strict';
 
 function foo(options) {
-    var options = options | {}; // BAD_BITWISE_OPERATOR alarm
+    var options = options || {}; // BAD_BITWISE_OPERATOR alarm
+    console.log(options);
 
 
-    if (typeof a === 'Array') {
+    if (typeof a === 'string') {
         console.log('It\'s an array!');
     }
 }

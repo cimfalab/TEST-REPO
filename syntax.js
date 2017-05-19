@@ -1,5 +1,4 @@
 var obj = {
   name: 'test',
-  age: 15,
-  name: 'noname'
+  age: 15
 }
