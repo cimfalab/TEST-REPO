@@ -24,4 +24,7 @@ function foo(options) {
     if (typeof a === 'string') {
         console.log('It\'s an array!');
     }
+
+    var g = null;
+    g.a = 1;
 }
