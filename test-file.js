@@ -25,6 +25,7 @@ function foo(options) {
         console.log('It\'s an array!');
     }
 
-    var g = null;
-    g.a = 1;
+    var options1 = options1 | {};
+    var options2 = options2 | {};
+    var options3 = options3 | {};
 }
