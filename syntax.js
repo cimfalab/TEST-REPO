@@ -1,5 +1,5 @@
 var obj = {
   name: 'test',
   age: 15,
-  name: 'noname1'
+  name: 'noname2'
 }
