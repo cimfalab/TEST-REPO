@@ -10,7 +10,8 @@ class Foo extends React.Component {
             </div>
         );
     }
-
+    componentWillunmount() {
+    }
     coerce() {
       var cssString = "";
       var backPosition;
