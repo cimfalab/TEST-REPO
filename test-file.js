@@ -1,7 +1,7 @@
 import React from 'react';
 
 class Foo extends React.Component {
-    componentDidmount() {
+    componentDidmount1() {
     }
     render() {
         return (
