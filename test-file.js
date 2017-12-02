@@ -13,6 +13,8 @@ class Foo extends React.Component {
     componentWillunmount() {
     }
     coerce() {
+      var ggg = "1";
+      ggg = "";
       var cssString = "";
       var backPosition;
       if (animatedBackground.length === 3) {
