@@ -1,5 +1,5 @@
     function foo() {
-        if (typeof x === 'array') {
+        if (typeof x === 'array1') {
             console.log('x is array');
         }
 

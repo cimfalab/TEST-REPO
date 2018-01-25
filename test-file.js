@@ -1,6 +1,8 @@
 import React from 'react';
 
 class Foo extends React.Component {
+    componentDidmount1() {
+    }
     render() {
         return (
             <div>
@@ -8,8 +10,11 @@ class Foo extends React.Component {
             </div>
         );
     }
-
+    componentWillunmount() {
+    }
     coerce() {
+      var ggg = "1";
+      ggg = "";
       var cssString = "";
       var backPosition;
       if (animatedBackground.length === 3) {
